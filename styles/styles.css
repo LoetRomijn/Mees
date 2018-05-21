@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Background Photo found on Unsplash */
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #FFF;
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+
+.background {
+  background: url(../timo-wagner.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+}
+
+.background-2 {
+  background: url(../henry-be.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+}
+.row-fixed {
+  width: 100%;
+  position: absolute;
+  bottom: 10%;
+  text-align: center;
+}
