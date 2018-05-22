@@ -2,32 +2,210 @@
   margin: 0;
   padding: 0;
 }
+
+
 /* Background Photo found on Unsplash */
+
 html, body {
   font-family: 'Open Sans', sans-serif;
   background-color: #FFF;
-  min-height: 100%;
+  height: 100vh;
   width: 100%;
   margin: 0;
   position: relative;
+  overflow-y: hidden;
 }
 
-.background {
-  background: url(../timo-wagner.jpg) no-repeat center;
+.background-1 {
+  background: url(../henry-be.jpg) no-repeat center;
   background-size: cover;
   height: 100vh;
   width: auto;
 }
 
 .background-2 {
-  background: url(../henry-be.jpg) no-repeat center;
+  background: url(../roberto-nickson.jpg) no-repeat center;
   background-size: cover;
   height: 100vh;
   width: auto;
+  position: relative;
 }
+
 .row-fixed {
   width: 100%;
   position: absolute;
   bottom: 10%;
   text-align: center;
+}
+
+.Theo-msg {
+  position: absolute;
+  bottom: -2000px;
+  left: 30%;
+  width: auto;
+  transition: bottom 1s ease-in-out;
+  height: 100%;
+}
+
+.Maria-msg {
+  position: absolute;
+  left: -40px;
+  bottom: -2000px;
+  width: auto;
+  transition: bottom 1s ease-in-out;
+  height: 100%;
+}
+
+.Koen-msg {
+  position: absolute;
+  left: 40%;
+  bottom: -2000px;
+  width: auto;
+  transition: bottom 1s ease-in-out;
+  height: 100%;
+}
+
+.Loet-msg {
+  position: absolute;
+  bottom: -2000px;
+  left: 70%;
+  width: auto;
+  transition: bottom 1s ease-in-out;
+  height: 100%;
+}
+
+.bericht {
+  height: auto;
+  width: 200px;
+  background-color: #FFF;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 15px;
+}
+
+.bericht-maria {
+  margin-left: 100px;
+}
+
+.bericht-koen {
+  margin-left: 100px;
+}
+
+.bericht-loet {
+  margin-left: 100px;
+}
+
+.mees-vogel {
+  width: auto;
+  position: absolute;
+  top: 20px;
+  left: 20%;
+}
+
+.mees-vogel img {
+  height: 100px;
+}
+
+.mees-vogel img:hover {
+  height: 200px;
+}
+
+.bird {
+  z-index: 10;
+  transition: transform 5s;
+  transition-timing-function: ease;
+}
+
+
+/* .static-bird{
+  position: absolute;
+  right: 200px;
+  top: 100px;
+  z-index: 5;
+} */
+
+.birdmove {
+  transform: translateX(800px);
+  animation: oscillate 5s;
+  animation-timing-function: ease;
+}
+
+@keyframes oscillate {
+  10% {
+    top: 50px;
+  }
+  30% {
+    top: 150px;
+  }
+  60% {
+    top: 100px;
+  }
+  80% {
+    top: 40px;
+  }
+  100% {
+    top: 20px;
+  }
+}
+
+.birdrotate {
+  transform: rotate(180deg);
+  animation: oscillate 5s;
+  animation-timing-function: ease;
+}
+
+.birdmoveback {
+  transform: translateX(-800px);
+  animation: oscillate 5s;
+  animation-timing-function: ease;
+}
+
+.links {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+}
+
+.rechts {
+  position: absolute;
+  right: 0%;
+  top: 50%;
+}
+
+.image-holder {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  top: 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  overflow-y: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.galerij img {
+  display: block;
+  margin-right: 100px !important;
+}
+
+.vlag-RUS {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.vlag-NL {
+  position: absolute;
+  top: 20px;
+  left: 0;
 }
