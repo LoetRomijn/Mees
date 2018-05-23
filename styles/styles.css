@@ -47,12 +47,11 @@ html, body {
   height: 95%;
 }
 
-.Theo-msg img {
+.Theo-msg-img img {
   position: absolute;
-  bottom: -60px;
+  bottom: -160px;
   left: 0;
 }
-
 .Maria-msg {
   position: absolute;
   left: -40px;
@@ -124,6 +123,10 @@ html, body {
 
 .bericht-maria {
   margin-left: 100px;
+  background-color: transparent;
+}
+
+.bericht-theo {
   background-color: transparent;
 }
 
@@ -295,4 +298,16 @@ img {
 .thumbnail:hover{
   cursor: pointer;
   border: 3px solid blue;
+}
+
+.mees-shrek:hover {
+content: url("../mees-shrek-2.png");
+}
+
+.koenmasker:hover {
+content: url("../koenmasker2.png");
+}
+
+.allen:hover {
+content: url("../allen2.png");
 }
