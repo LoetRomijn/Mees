@@ -44,7 +44,13 @@ html, body {
   left: 30%;
   width: auto;
   transition: bottom 1s ease-in-out;
-  height: 100%;
+  height: 95%;
+}
+
+.Theo-msg img {
+  position: absolute;
+  bottom: -60px;
+  left: 0;
 }
 
 .Maria-msg {
@@ -53,7 +59,13 @@ html, body {
   bottom: -2000px;
   width: auto;
   transition: bottom 1s ease-in-out;
-  height: 100%;
+  height: 80%;
+}
+
+.Maria-msg img {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
 }
 
 .Koen-msg {
@@ -62,7 +74,13 @@ html, body {
   bottom: -2000px;
   width: auto;
   transition: bottom 1s ease-in-out;
-  height: 100%;
+  height: 80%;
+}
+
+.Koen-msg img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .Loet-msg {
@@ -71,7 +89,28 @@ html, body {
   left: 70%;
   width: auto;
   transition: bottom 1s ease-in-out;
-  height: 100%;
+  height: 80%;
+}
+
+.Loet-msg img {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+}
+
+@media only screen and (min-height: 900px) {
+  .Loet-msg {
+    height: 60%;
+  }
+  .Koen-msg {
+    height: 45%;
+  }
+  .Maria-msg {
+    height: 55%;
+  }
+  .Theo-msg {
+    height: 70%;
+  }
 }
 
 .bericht {
@@ -99,7 +138,7 @@ html, body {
   width: auto;
   position: absolute;
   top: 20px;
-  left: 20%;
+  left: 10%;
 }
 
 .mees-vogel img {
@@ -110,22 +149,34 @@ html, body {
   height: 200px;
 }
 
+.bird-back {
+  width: auto;
+  position: absolute;
+  top: 20px;
+  left: 950px;
+  z-index: 10;
+}
+
+.bird-back img {
+  height: 100px;
+  /* -webkit-transform: scaleX(-1);
+  transform: scaleX(-1); */
+}
+
 .bird {
   z-index: 10;
   transition: transform 5s;
   transition-timing-function: ease;
 }
 
-
-/* .static-bird{
-  position: absolute;
-  right: 200px;
-  top: 100px;
-  z-index: 5;
-} */
-
 .birdmove {
-  transform: translateX(800px);
+  transform: translateX(950px);
+  animation: oscillate 5s;
+  animation-timing-function: ease;
+}
+
+.birdmove-back {
+  transform: translateX(0px);
   animation: oscillate 5s;
   animation-timing-function: ease;
 }
@@ -148,18 +199,6 @@ html, body {
   }
 }
 
-.birdrotate {
-  transform: rotate(180deg);
-  animation: oscillate 5s;
-  animation-timing-function: ease;
-}
-
-.birdmoveback {
-  transform: translateX(-800px);
-  animation: oscillate 5s;
-  animation-timing-function: ease;
-}
-
 .links {
   position: absolute;
   left: 0%;
@@ -176,7 +215,7 @@ html, body {
   position: relative;
   width: 80%;
   height: 80%;
-  top: 50px;
+  top: 5%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -194,6 +233,7 @@ img {
 .galerij img {
   display: block;
   margin-right: 100px !important;
+  box-shadow: 0 3px 3px 4px black;
 }
 
 .vlag-RUS {
