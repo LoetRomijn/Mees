@@ -148,7 +148,7 @@ $(document).ready(function() {
 
 
   $(".Maria").click(function() {
-    $('.Maria-msg').css("bottom", "-100px");
+    $('.Maria-msg').css("bottom", "-50px");
     $(this).hide();
   });
 
@@ -158,7 +158,7 @@ $(document).ready(function() {
   });
 
   $(".Koen").click(function() {
-    $('.Koen-msg').css("bottom", "-230px");
+    $('.Koen-msg').css("bottom", "0px");
     $(this).hide();
   });
 
@@ -168,7 +168,7 @@ $(document).ready(function() {
   });
 
   $(".Loet").click(function() {
-    $('.Loet-msg').css("bottom", "-100px");
+    $('.Loet-msg').css("bottom", "-50px");
     $(this).hide();
   });
 
@@ -198,4 +198,21 @@ $(document).ready(function() {
     });
 
   });
+
+  $(".quiet").click(function(){
+    var text = $(this).text();
+      $(this).text(
+        text == "Quiet time" ? "Party time!" : "Quiet time");
+
+    $(".banana").toggleClass("hidden");
+    $(".happybday").toggleClass("hidden");
+  })
+
+  $(function() {
+    $('.pop').on('click', function() {
+      $('.imagepreview').attr('src', $(this).find('img').attr('src'));
+      $('#imagemodal').modal('show');
+    });
+  });
+
 });
