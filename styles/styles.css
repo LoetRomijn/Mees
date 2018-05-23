@@ -82,6 +82,20 @@ html, body {
   left: 0;
 }
 
+
+.joint {
+  position: absolute;
+  bottom: -8px;
+  left: 134px;
+  z-index: 5;
+  background: url("../joint.gif") no-repeat;
+  background-size: contain;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  height: 100px;
+  width: 200px;
+}
+
 .Loet-msg {
   position: absolute;
   bottom: -2000px;
@@ -299,6 +313,8 @@ img {
   cursor: pointer;
   border: 3px solid blue;
 }
+
+
 
 .mees-shrek:hover {
 content: url("../mees-shrek-2.png");
