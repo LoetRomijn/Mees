@@ -44,7 +44,7 @@ html, body {
   left: 30%;
   width: auto;
   transition: bottom 1s ease-in-out;
-  height: 95%;
+  height: 85%;
 }
 
 .Theo-msg-img img {
@@ -73,10 +73,11 @@ html, body {
   bottom: -2000px;
   width: auto;
   transition: bottom 1s ease-in-out;
-  height: 80%;
+  height: auto;
+  max-width: 400px;
 }
 
-.Koen-msg img {
+.Koen-msg-img img {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -85,8 +86,8 @@ html, body {
 
 .joint {
   position: absolute;
-  bottom: -8px;
-  left: 134px;
+  bottom: 2px;
+  left: 236px;
   z-index: 5;
   background: url("../joint.gif") no-repeat;
   background-size: contain;
@@ -109,6 +110,8 @@ html, body {
   position: absolute;
   bottom: -30px;
   left: 0;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 @media only screen and (min-height: 900px) {
@@ -127,8 +130,8 @@ html, body {
 }
 
 .bericht {
-  max-height: 50px;
-  max-width: 200px;
+  /* max-height: 50px;
+  max-width: 200px; */
   background-color: #FFF;
   border-radius: 8px;
   margin: 10px;
@@ -136,7 +139,6 @@ html, body {
 }
 
 .bericht-maria {
-  margin-left: 100px;
   background-color: transparent;
 }
 
@@ -145,7 +147,7 @@ html, body {
 }
 
 .bericht-koen {
-  margin-left: 100px;
+  background-color: transparent;
 }
 
 .bericht-loet {
@@ -326,4 +328,12 @@ content: url("../koenmasker2.png");
 
 .allen:hover {
 content: url("../allen2.png");
+}
+
+.meesbad:hover {
+content: url("../mees-bad-gif.gif");
+}
+
+.meesmilan:hover {
+content: url("../mees-milan-gif.gif");
 }
