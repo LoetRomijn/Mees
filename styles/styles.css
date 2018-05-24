@@ -17,14 +17,14 @@ html, body {
 }
 
 .background-1 {
-  background: url(../henry-be.jpg) no-repeat center;
+  background: url(../images/henry-be.jpg) no-repeat center;
   background-size: cover;
   height: 100vh;
   width: auto;
 }
 
 .background-2 {
-  background: url(../roberto-nickson.jpg) no-repeat center;
+  background: url(../images/roberto-nickson.jpg) no-repeat center;
   background-size: cover;
   height: 100vh;
   width: auto;
@@ -81,20 +81,6 @@ html, body {
   position: absolute;
   bottom: 0;
   left: 0;
-}
-
-
-.joint {
-  position: absolute;
-  bottom: 2px;
-  left: 236px;
-  z-index: 5;
-  background: url("../joint.gif") no-repeat;
-  background-size: contain;
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  height: 100px;
-  width: 200px;
 }
 
 .Loet-msg {
@@ -280,7 +266,7 @@ img {
 
 .happybday {
   position: fixed;
-  background: url("../happybday.gif") no-repeat top;
+  background: url("../images/happybday.gif") no-repeat top;
   background-size:contain;
   height: 300px;
   width: 40%;
@@ -292,7 +278,7 @@ img {
 
 .banana {
   position: absolute;
-  background: url("../banana.gif") no-repeat bottom;
+  background: url("../images/banana.gif") no-repeat bottom;
   height: 300px;
   width: 250px;
   bottom: 0;
@@ -319,21 +305,21 @@ img {
 
 
 .mees-shrek:hover {
-content: url("../mees-shrek-2.png");
+content: url("../images/mees-shrek-2.png");
 }
 
 .koenmasker:hover {
-content: url("../koenmasker2.png");
+content: url("../images/koenmasker2.png");
 }
 
 .allen:hover {
-content: url("../allen2.png");
+content: url("../images/allen2.png");
 }
 
 .meesbad:hover {
-content: url("../mees-bad-gif.gif");
+content: url("../images/mees-bad-gif.gif");
 }
 
 .meesmilan:hover {
-content: url("../mees-milan-gif.gif");
+content: url("../images/mees-milan-gif.gif");
 }
