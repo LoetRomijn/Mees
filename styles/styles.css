@@ -335,3 +335,15 @@ content: url("../images/mees-marina-hover.gif");
 .papaslaapt:hover {
 content: url("../images/papaslaapt-hover.gif");
 }
+
+.mees-bu:hover {
+  content: url("../images/mees-bu-hover.gif");
+}
+
+.meessquat:hover {
+  content: url("../images/mees-squat-hover.gif");
+}
+
+.meesputin:hover {
+  content: url("../images/mees-putin-hover.gif");
+}
