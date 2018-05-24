@@ -317,9 +317,21 @@ content: url("../images/allen2.png");
 }
 
 .meesbad:hover {
-content: url("../images/mees-bad-gif.gif");
+content: url("../images/mees-bad-hover.gif");
 }
 
 .meesmilan:hover {
-content: url("../images/mees-milan-gif.gif");
+content: url("../images/mees-milan-hover.gif");
+}
+
+.bijtjestipje:hover {
+content: url("../images/bijtje-stipje-hover.gif");
+}
+
+.meesmarina:hover {
+content: url("../images/mees-marina-hover.gif");
+}
+
+.papaslaapt:hover {
+content: url("../images/papaslaapt-hover.gif");
 }
