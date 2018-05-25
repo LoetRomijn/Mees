@@ -92,12 +92,12 @@ html, body {
   height: 80%;
 }
 
-.Loet-msg img {
+.Loet-msg-img img {
   position: absolute;
   bottom: -30px;
   left: 0;
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+  -webkit-transform: scaleX(-1) !important;
+  transform: scaleX(-1) !important;
 }
 
 @media only screen and (min-height: 900px) {
@@ -137,7 +137,7 @@ html, body {
 }
 
 .bericht-loet {
-  margin-left: 100px;
+  background-color: transparent;
 }
 
 .mees-vogel {
