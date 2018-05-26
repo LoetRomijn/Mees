@@ -45,6 +45,7 @@ html, body {
   width: auto;
   transition: bottom 1s ease-in-out;
   height: 85%;
+  z-index: 5;
 }
 
 .Theo-msg-img img {
@@ -59,6 +60,7 @@ html, body {
   width: auto;
   transition: bottom 1s ease-in-out;
   height: 80%;
+  z-index: 5;
 }
 
 .Maria-msg-img img {
@@ -100,6 +102,21 @@ html, body {
   transform: scaleX(-1) !important;
 }
 
+.Eric-msg {
+  position: absolute;
+  left: -2000px;
+  top: 7%;
+  width: 50%;
+  transition: left 1s ease-in-out;
+  height: 85%;
+}
+
+.Eric-msg-img img {
+  position: absolute;
+  left: -160px;
+  top: 30%;
+}
+
 @media only screen and (min-height: 900px) {
   .Loet-msg {
     height: 60%;
@@ -116,28 +133,13 @@ html, body {
 }
 
 .bericht {
-  /* max-height: 50px;
-  max-width: 200px; */
-  background-color: #FFF;
-  border-radius: 8px;
   margin: 10px;
   padding: 15px;
 }
 
-.bericht-maria {
-  background-color: transparent;
-}
-
-.bericht-theo {
-  background-color: transparent;
-}
-
-.bericht-koen {
-  background-color: transparent;
-}
-
-.bericht-loet {
-  background-color: transparent;
+.bericht-eric {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .mees-vogel {
@@ -220,7 +222,7 @@ html, body {
 .image-holder {
   position: relative;
   width: 100%;
-  height: 80%;
+  height: 100%;
   top: 5%;
   text-align: center;
   margin-left: auto;
@@ -257,11 +259,12 @@ img {
 .image {
   display: inline-block;
   position: relative;
-  height: 80%;
-  width: auto;
+  height: 500px;
+  width: 600px;
   margin-right: 100px;
   color: #FFF;
   text-shadow: 2px 2px black;
+  top: -150px
 }
 
 .happybday {
@@ -303,47 +306,187 @@ img {
 }
 
 
-
+.mees-shrek {
+   transition: .3s background ease;
+   background: url("../images/mees-shrek.png") no-repeat center;
+   background-size: contain;
+   height: 400px;
+   width: auto;
+}
 .mees-shrek:hover {
-content: url("../images/mees-shrek-2.png");
+background: url("../images/mees-shrek-2.png") no-repeat center;
+background-size: contain;
 }
-
+.koenmasker {
+   transition: .3s background ease;
+   background: url("../images/koenmasker.png") no-repeat center;
+   background-size: contain;
+   height: 400px;
+   width: auto;
+}
 .koenmasker:hover {
-content: url("../images/koenmasker2.png");
+background: url("../images/koenmasker2.png") no-repeat center;
+background-size: contain;
 }
-
+.allen {
+   transition: .3s background ease;
+   background: url("../images/allen.png") no-repeat center;
+   background-size: contain;
+   height: 400px;
+   width: auto;
+}
 .allen:hover {
-content: url("../images/allen2.png");
+background: url("../images/allen2.png") no-repeat center;
+background-size: contain;
 }
-
+.meesbad {
+   transition: .3s background ease;
+   background: url("../images/meesbad.png") no-repeat center;
+   background-size: contain;
+   height: 400px;
+   width: auto;
+}
 .meesbad:hover {
-content: url("../images/mees-bad-hover.gif");
+background: url("../images/mees-bad-hover.gif") no-repeat center;
+background-size: contain;
 }
-
+.meesmilan {
+   transition: .3s background ease;
+   background: url("../images/meesmilan.png") no-repeat center;
+   background-size: contain;
+   height: 400px;
+   width: auto;
+}
 .meesmilan:hover {
-content: url("../images/mees-milan-hover.gif");
+background: url("../images/mees-milan-hover.gif") no-repeat center;
+background-size: contain;
 }
-
+.bijtjestipje {
+   transition: .3s background ease;
+   background: url("../images/bijtjestipje.png") no-repeat center;
+   background-size: contain;
+   height: 400px;
+   width: auto;
+}
 .bijtjestipje:hover {
-content: url("../images/bijtje-stipje-hover.gif");
+background: url("../images/bijtje-stipje-hover.gif") no-repeat center;
+background-size: contain;
 }
-
+.meesmarina {
+   transition: .3s background ease;
+   background: url("../images/mees-marina.png") no-repeat center;
+   background-size: contain;
+   height: 400px;
+   width: auto;
+}
 .meesmarina:hover {
-content: url("../images/mees-marina-hover.gif");
+background: url("../images/mees-marina-hover.gif") no-repeat center;
+background-size: contain;
 }
-
+.papaslaapt {
+   transition: .3s background ease;
+   background: url("../images/papaslaapt.png") no-repeat center;
+   background-size: contain;
+   height: 400px;
+   width: auto;
+}
 .papaslaapt:hover {
-content: url("../images/papaslaapt-hover.gif");
+background: url("../images/papaslaapt-hover.gif") no-repeat center;
+background-size: contain;
 }
-
+.mees-bu {
+   transition: .3s background ease;
+   background: url("../images/meees-bu.png") no-repeat center;
+   background-size: contain;
+   height: 400px;
+   width: auto;
+}
 .mees-bu:hover {
-  content: url("../images/mees-bu-hover.gif");
+  background: url("../images/mees-bu-hover.gif") no-repeat center;
+  background-size: contain;
 }
-
+.meessquat {
+   transition: .3s background ease;
+   background: url("../images/meessquatframe.png") no-repeat center;
+   background-size: contain;
+   height: 400px;
+   width: auto;
+}
 .meessquat:hover {
-  content: url("../images/mees-squat-hover.gif");
+  background: url("../images/mees-squat-hover.gif") no-repeat center;
+  background-size: contain;
+}
+.meesputin {
+   transition: .3s background ease;
+   background: url("../images/mees-putin.png") no-repeat center;
+   background-size: contain;
+   height: 400px;
+   width: auto;
+}
+.meesputin:hover {
+  background: url("../images/mees-putin-hover.gif") no-repeat center;
+  background-size: contain;
+}
+.koenboom {
+  transition: .3s background ease;
+  background: url("../images/koenboom.png") no-repeat center;
+  background-size: contain;
+  height: 400px;
+  width: auto;
+}
+.meeskoen {
+  transition: .3s background ease;
+  background: url("../images/koenmees.png") no-repeat center;
+  background-size: contain;
+  height: 400px;
+  width: auto;
+}
+.loetkoenmees {
+  transition: .3s background ease;
+  background: url("../images/koenloetmees.png") no-repeat center;
+  background-size: contain;
+  height: 400px;
+  width: auto;
+}
+.tmkm {
+  transition: .3s background ease;
+  background: url("../images/tmkm.png") no-repeat center;
+  background-size: contain;
+  height: 400px;
+  width: auto;
+}
+.papathuis {
+  transition: .3s background ease;
+  background: url("../images/papathuis.png") no-repeat center;
+  background-size: contain;
+  height: 400px;
+  width: auto;
+}
+.papmam {
+  transition: .3s background ease;
+  background: url("../images/papmam.png") no-repeat center;
+  background-size: contain;
+  height: 400px;
+  width: auto;
+}
+.breda2 {
+  transition: .3s background ease;
+  background: url("../images/bredakaart2.png") no-repeat center;
+  background-size: contain;
+  height: 400px;
+  width: auto;
+}
+.breda1 {
+  transition: .3s background ease;
+  background: url("../images/bredakaart1.png") no-repeat center;
+  background-size: contain;
+  height: 400px;
+  width: auto;
 }
 
-.meesputin:hover {
-  content: url("../images/mees-putin-hover.gif");
+
+.Eric {
+  position: absolute;
+  top: 20%;
+  left: 2%;
 }

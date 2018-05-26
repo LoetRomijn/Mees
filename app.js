@@ -50,6 +50,16 @@ $(document).ready(function() {
     $('.Loet').show();
   });
 
+  $(".Eric").click(function() {
+    $('.Eric-msg').css("left", "-50px");
+    $(this).hide();
+  });
+
+  $(".verberg-eric").click(function() {
+    $('.Eric-msg').css("left", "-2000px");
+    $('.Eric').show();
+  });
+
 
   // $(".bird").addClass("birdmove");
 
